@@ -10,6 +10,7 @@ body {
   height: 100vh;
   background: url('assets/back.png') no-repeat center center;
   background-size: contain;
+  background-color: brown;
 }
 
 .petal-container {
@@ -22,7 +23,7 @@ body {
 
 .petal {
   position: absolute;
-  width: 490px;
+  width: 450px;
   height: auto;
   cursor: pointer;
   pointer-events: auto;
@@ -40,7 +41,7 @@ body {
     opacity: 1;
   }
   100% {
-    transform: translate(-50%, -50%) translateY(600px) rotate(720deg);
+    transform: translate(-50%, -50%) translateY(600px);
     opacity: 0;
   }
 }
