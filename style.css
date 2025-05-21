@@ -10,7 +10,7 @@ body {
   height: 100vh;
   background: url('assets/back.png') no-repeat center center;
   background-size: contain;
-  background-color: brown;
+  background-color: beige;
 }
 
 .petal-container {
