@@ -8,7 +8,7 @@ body {
   position: relative;
   width: 100vw;
   height: 100vh;
-  background: url('assets/background.png') no-repeat center center;
+  background: url('assets/back.png') no-repeat center center;
   background-size: contain;
 }
 
@@ -22,7 +22,7 @@ body {
 
 .petal {
   position: absolute;
-  width: 450px;
+  width: 490px;
   height: auto;
   cursor: pointer;
   pointer-events: auto;
